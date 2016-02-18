@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.IntegrationTest", "Chat.IntegrationTest\Chat.IntegrationTest.csproj", "{3766474F-9C9A-4DBB-8606-9CC5ECAFB71B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gtalk", "Gtalk\Gtalk.csproj", "{CD74B9DD-0293-457F-8E2B-3E03B6F2F551}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{3766474F-9C9A-4DBB-8606-9CC5ECAFB71B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3766474F-9C9A-4DBB-8606-9CC5ECAFB71B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3766474F-9C9A-4DBB-8606-9CC5ECAFB71B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD74B9DD-0293-457F-8E2B-3E03B6F2F551}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD74B9DD-0293-457F-8E2B-3E03B6F2F551}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD74B9DD-0293-457F-8E2B-3E03B6F2F551}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD74B9DD-0293-457F-8E2B-3E03B6F2F551}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -32,6 +32,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="jabber-net">
+      <HintPath>..\packages\jabber-net.2.1.2.0\lib\net40\jabber-net.dll</HintPath>
+    </Reference>
+    <Reference Include="netlib.Dns">
+      <HintPath>..\packages\jabber-net.2.1.2.0\lib\net40\netlib.Dns.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
